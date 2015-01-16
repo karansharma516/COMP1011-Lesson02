@@ -31,9 +31,9 @@ public class Hero {
 	// PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++
 	public void showAbilities(){
 		System.out.println("++++++++++++++++++++++");
-		System.out.println("Strength: " + "this.strength");
-		System.out.println("Speed: " + "this.speed");
-		System.out.println("Health: " + "this.health");
+		System.out.println("Strength: " + this.strength);
+		System.out.println("Speed: " + this.speed);
+		System.out.println("Health: " + this.health);
 		System.out.println("++++++++++++++++++++++");
 	}
 	
@@ -45,11 +45,11 @@ public class Hero {
 	}
 	
 	public void fight(){
-		System.out.println(this.name + "is Fighting");
+		System.out.println(this.name + " is Fighting");
 	}
 	
 	public void run(){
-		System.out.println(this.name + "is Running");
+		System.out.println(this.name + " is Running");
 	}
 
 }
